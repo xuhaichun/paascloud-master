@@ -152,7 +152,12 @@ Spring Cloud 爱好者,现就任于鲜易供应链平台研发部.
 ![项目架构图](http://img.paascloud.net/paascloud/doc/paascloud-project.png)
 
 
-
+###项目启动顺序
+1. paascloud-eureka
+2. paascloud-discovery
+3. paascloud-provider-uac
+4. paascloud-gateway
+5. 剩下微服务无启动数序要求
 
 
 
